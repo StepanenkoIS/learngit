@@ -14,4 +14,9 @@ public class MyRESTController {
         return "Hello world!";
     }
 
+    @GetMapping("/new")
+    public String newTest() {
+        return "Hello new world!";
+    }
+
 }
