@@ -14,7 +14,7 @@ public class MyRESTController {
         return "Hello world!";
     }
 
-    @GetMapping("/new")
+    @GetMapping("/newTest")
     public String newTest() {
         return "Hello new world!";
     }
